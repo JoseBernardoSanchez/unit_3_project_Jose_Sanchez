@@ -1,13 +1,13 @@
-label{
+label {
     display: block;
     margin-left: none;
 }
-.color_top{
+.color_top {
     display: flex;
     justify-content: space-around;
     background-color:#001440 ;
     color: ivory;
 }
-li{
+li {
     list-style-type: none;
 }
