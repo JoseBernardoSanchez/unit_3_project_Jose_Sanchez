@@ -7,13 +7,15 @@
         <div class="color_top">
             <h1 class="color_top">The Code Review</h1>
         </div>
-        <div>
+        <div >
             <h2>Signup for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
         </div>
+        <hr class="top_line">
     </head>
 
     <body>
+        <hr class="other_line">
         <div>
             <h2>Contact Information</h2>
                 <form>
@@ -42,6 +44,10 @@
                         <label for="state">State</label>
                         <select name="user_state" id="state">
                             <option disabled selected value="">Choose State</option>
+                            <option value="CA">California</option>
+                            <option value="TX">Texas</option>
+                            <option value="NY">New York</option>
+                            <option value="FL">Florida</option>
                         </select>
                         
                     </li>
@@ -52,6 +58,7 @@
                 </ul>
             </form>
         </div>
+        <hr class="other_line">
         <div>
             <h2>Newsletter</h2>
             <p>Select the newsletter you would like to recieve</p>
@@ -79,12 +86,12 @@
                 <ul>
                     <li>
                         <label for="other">Other topics you'd like to hear about</label>
-                        <input type="textarea" id="other" name="user_other">
+                        <textarea id="other" name="user_other"></textarea>
                     </li>
                 </ul>    
             </form>
         </div>
-        <div>
+        <div class="button">
             <button type="submit">Sign Up</button>
         </div>
     </body>

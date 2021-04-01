@@ -1,6 +1,6 @@
 label {
-    display: block;
-    margin-left: none;
+    display: flex;
+
 }
 .color_top {
     display: flex;
@@ -10,4 +10,35 @@ label {
 }
 li {
     list-style-type: none;
+}
+input, select{
+    background-color: rgba(235, 235, 235, 0.5);
+}
+.top_line{
+    border-top: 8px solid black;
+}
+.other_line {
+    border-top: 5px solid black;
+}
+button{
+    background-color: turquoise;
+    color: ivory;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    font:800;
+}
+
+body{
+    margin: 0%;
+    padding: 5px;
+}
+head{
+    width: 95;
+margin: 0%;
 }
