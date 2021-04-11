@@ -29,11 +29,16 @@ button{
     font-size: 16px;
     font:800;
 }
-
+legend{
+    font: bold;
+}
 body{
     margin: 0%;
-    padding: 5px;
 }
 head{
     margin: 0%;
+}
+footer{
+    display: flex;
+    
 }
