@@ -10,55 +10,57 @@
         <div class="color_top">
             <h1 class="color_top">The Code Review</h1>
         </div>
-        <div >
-            <h2>Signup for our newsletter</h2>
-            <p>Get the latest news on how your code is doing right in your inbox</p>
+        <div class="info">
+            <h2 class="rev">Signup for our newsletter</h2>
+            <p class="rev">Get the latest news on how your code is doing right in your inbox</p>
         </div>
         <hr class="top_line">
         <hr class="other_line">
-        <div>
             <form>
-                <fieldset>
-                    <legend>Contact Information</legend>
-                        <ul>
-                            <li>
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" name="user_name" placeholder="required">
-                            </li>
-                            <li>
-                                <label for="email">Email Address</label>
-                                <input type="email" id="email" name="user_email" placeholder="required">
-                            </li>
-                            <li>
-                                <label for="phone">Phone Number</label>
-                                <input type="text" id="phone" name="user_phone">
-                            </li>
-                            <li>
-                                <label for="address">Street Address</label>
-                                <input type="text" id="address" name="user_address">
-                            </li>
-                            <li>
-                                <label for="city">City</label>
-                                <input type="text" id="city" name="user_city">
-                            </li>
-                            <li>
-                                <label for="state">State</label>
-                                <select name="user_state" id="state">
-                                    <option disabled selected value="">Choose State</option>
-                                    <option value="CA">California</option>
-                                    <option value="TX">Texas</option>
-                                    <option value="NY">New York</option>
-                                    <option value="FL">Florida</option>
-                                </select>
-                                
-                            </li>
-                            <li>
-                                <label for="zip">Zip Code</label>
-                                <input type="text" id="zip" name="user_zip">
-                            </li>
-                        </ul>
-                </fieldset>
-                    </div>
+                <div>
+                    <fieldset class="con_info">
+                        <legend class="position">Contact Information</legend>
+                        <div>
+                            <ul class="con_info">
+                                <li>
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="user_name" placeholder="required">
+                                </li>
+                                <li>
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="user_email" placeholder="required">
+                                </li>
+                                <li>
+                                    <label for="phone">Phone Number</label>
+                                    <input type="text" id="phone" name="user_phone">
+                                </li>
+                                <li>
+                                    <label for="address">Street Address</label>
+                                    <input type="text" id="address" name="user_address">
+                                </li>
+                                <li>
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" name="user_city">
+                                </li>
+                                <li>
+                                    <label for="state">State</label>
+                                    <select name="user_state" id="state">
+                                        <option disabled selected value="">Choose State</option>
+                                        <option value="CA">California</option>
+                                        <option value="TX">Texas</option>
+                                        <option value="NY">New York</option>
+                                        <option value="FL">Florida</option>
+                                    </select>
+                                    
+                                </li>
+                                <li>
+                                    <label for="zip" class="zip">Zip Code</label>
+                                    <input type="text" id="zip" name="user_zip">
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                </div>
                 <hr class="other_line">
                 <div>
                     <fieldset>
@@ -84,12 +86,12 @@
                             <input type="radio" id="plain_text" name="user_format">
                             <label for="plain_text">Plain text</label>
                         </div>
-                        <ul>
-                            <li>
+                        <div>
+                            <ul>
                                 <label for="other">Other topics you'd like to hear about</label>
                                 <textarea id="other" name="user_other"></textarea>
-                            </li>
-                        </ul>    
+                            </ul>
+                        </div>
                     </fieldset>
                 <div class="button">
                 <button type="submit">Sign Up</button>
