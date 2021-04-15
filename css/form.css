@@ -1,4 +1,14 @@
-p,b,head, label, select, ::placeholder, button, h1, h2, footer, legend{
+p,
+b,
+head,
+label,
+select,
+::placeholder,
+button,
+h1,
+h2,
+footer,
+legend{
     font-family: monospace;
 }
 .color_top {
@@ -114,6 +124,12 @@ ul{
 ::placeholder{
     text-align: end;
 }
+textarea:focus,
+select:focus, 
+input:focus,
+button:focus{
+outline: 5px dashed turquoise;
+}
 @media (min-width: 768px){
     div.info, form{
         margin-left: 20%;
@@ -126,7 +142,7 @@ ul{
         border: none;
         border-radius: 6px;
         justify-content: space-around;
-        width: 50%;
+        width: 80%;
         padding: 10px;
         margin-left: 0%;
     }
@@ -135,7 +151,7 @@ ul{
         border: none;
         border-radius: 6px;
         justify-content: space-around;
-        width: 25%;
+        width: 30%;
         padding: 10px;
         display: inline-block;
         margin-left: 0%;
@@ -146,7 +162,7 @@ ul{
         border: none;
         border-radius: 6px;
         justify-content: space-around;
-        width: 50%;
+        width: 80%;
         padding: 10px;
         margin-left:0%;
         display: inline-block;
@@ -154,7 +170,7 @@ ul{
     label{
         display: inline-block;
         flex-wrap: wrap;
-        width: 120px;
+        width: 15%;
     }
     .other{
         display: flex;
